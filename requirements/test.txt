@@ -12,3 +12,4 @@ pre-commit==2.20.0
 -r extras/yaml.txt
 -r extras/msgpack.txt
 -r extras/mongodb.txt
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
